@@ -67,7 +67,7 @@ public class MainActivity extends Activity {
             }
         });
 
-        setUpRecyclerView2();
+        setUpRecyclerView();
     }
 
     private void setUpRecyclerView() {

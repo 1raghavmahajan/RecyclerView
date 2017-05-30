@@ -1,11 +1,18 @@
 <resources>
 
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+
+    </style>
+
+    <style name="list_Theme" parent="ThemeOverlay.AppCompat.Dark">
+
+    </style>
 
 
 
 
 
-    <!-- Base application theme. -->
+    <!--
     <style name="AppTheme" parent="@android:style/Theme.Material.NoActionBar">
 
     </style>
@@ -13,5 +20,7 @@
     <style name="list_Theme" parent="@android:style/ThemeOverlay.Material.Dark">
 
     </style>
+
+    -->
 
 </resources>

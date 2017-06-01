@@ -1,10 +1,8 @@
 package com.blackbox.app.designbasics.app;
 
-import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
@@ -15,10 +13,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 import com.blackbox.app.designbasics.R;
-import com.blackbox.app.designbasics.adapters.OtherRecyclerAdapter;
-import com.blackbox.app.designbasics.adapters.RecyclerAdapter;
+import com.blackbox.app.designbasics.adapters.mainRecyclerAdapter;
 import com.blackbox.app.designbasics.model.Animal;
-import com.blackbox.app.designbasics.model.Landscape;
 
 
 public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuItemClickListener {
@@ -74,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
 
     private void setUpRecyclerView() {
 
-        OtherRecyclerAdapter recyclerAdapter = new OtherRecyclerAdapter(context, Animal.getData());
+        mainRecyclerAdapter recyclerAdapter = new mainRecyclerAdapter(context, Animal.getData());
 
         recyclerView.setAdapter(recyclerAdapter);
 

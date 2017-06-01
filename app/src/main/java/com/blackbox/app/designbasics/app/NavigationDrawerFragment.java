@@ -16,10 +16,6 @@ import com.blackbox.app.designbasics.R;
 import com.blackbox.app.designbasics.adapters.navBarAdapter;
 import com.blackbox.app.designbasics.model.nav_item;
 
-/**
- * Created by Raghav on 30-May-17.
- */
-
 public class NavigationDrawerFragment extends Fragment {
 
     @Nullable
@@ -85,6 +81,8 @@ public class NavigationDrawerFragment extends Fragment {
                 drawerToggle.syncState();
             }
         });
+
+
     }
 
 
